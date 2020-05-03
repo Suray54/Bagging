@@ -1,0 +1,37 @@
+.shop-now {
+  background-color: #ec1c24;
+  border: none;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  letter-spacing: 2px;
+  padding: 9px 36px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px grey;
+
+  & :hover {
+    background-color: red;
+  }
+}
+
+.submit-btn {
+  margin-top: 5px;
+  background-color: #4dd2f0;
+  border: none;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  letter-spacing: 2px;
+  padding: 12px 43px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.479);
+  & :hover {
+    background-color: #02c0eba1;
+  }
+}

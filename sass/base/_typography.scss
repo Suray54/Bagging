@@ -1,0 +1,94 @@
+body {
+  font-size: $default-font-size;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.primary__heading {
+  padding: 20vh 5%;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4.8rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  &-main {
+    color: $color-black;
+    display: block;
+  }
+
+  &-secondary {
+    color: $color-white;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .primary__heading {
+    padding: 5vh 5%;
+  }
+}
+
+.secondary__heading {
+  text-align: center;
+  padding: 1rem;
+  &--main {
+    color: #4c4d4e;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 23px;
+    text-transform: uppercase;
+    display: block;
+  }
+
+  &--secondary {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 28px;
+    display: block;
+  }
+}
+
+.main__heading {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.tertiary__heading {
+  padding: 1rem;
+  &--main {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-transform: uppercase;
+    display: block;
+  }
+}
+
+.third__heading {
+  &--main {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 10px;
+  }
+  &--secondary {
+    margin-top: 10px;
+    color: #77663e;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 28px;
+    display: block;
+  }
+}
